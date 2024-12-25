@@ -49,7 +49,6 @@ nav{
             li{
                 padding: 15px 30px;
                 height: 100%;
-                line-height: 30px;
                 .menu-item{
                     color: #eee;
                     font-size: 1.1em;
@@ -168,6 +167,16 @@ nav{
 }
 
 @media (max-width: 768px) {
+    nav{
+        .menu{
+            ul{
+                li{
+                    font-size: 12px;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
     .text{
         .myimg{
             img{
