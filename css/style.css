@@ -71,7 +71,7 @@ nav{
                     max-height: 0;
                     .sub-drop{
                         padding: 0;
-                        ul{
+                        .sub-menu-list{
                             width: 100%;
                             padding: 0;
                             margin: 0;
@@ -133,12 +133,6 @@ nav{
         }
     }
 }
-/* nav ul li .sub-drop{
-    ul{
-        visibility: visible;
-        opacity: 1;
-    }
-} */
 .text{
     padding-top: 80px;
     font-size: 2em;
@@ -171,10 +165,10 @@ nav{
 @media (max-width: 768px) {
     nav{
         .menu{
-            ul{
+            .menu-list{
                 .list-item{
-                    font-size: 12px;
-                    padding: 10px 20px;
+                    font-size: 10px;
+                    padding: 5px 10px;
                 }
             }
         }
@@ -187,8 +181,10 @@ nav{
         }
     }
     .evol{
-        .inside-img{
-            width: 100%;
+        .evol-para{
+            .inside-img{
+                width: 100%;
+            }
         }
     }
 }
